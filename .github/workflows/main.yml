@@ -1,1 +1,17 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+jobs:
+  build:
+    runs-on: ubunto-lastest
+
+    steps:
+      - name: 'test github actions'
+        run: pwd
+
+      - name: 'test printing'
+        run: echo Omar
