@@ -1,5 +1,5 @@
 public class name {
     public static void main(String[] args) {
-        System.out.println("OMAR EBID");
+        System.out.println("No Name");
     }
 }
